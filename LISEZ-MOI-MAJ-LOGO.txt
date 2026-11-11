@@ -1,0 +1,20 @@
+SMART BÂTIMENT — REMPLACEMENT DU LOGO OFFICIEL
+
+Ce ZIP contient seulement les 4 images modifiées, pour préserver vos autres fichiers.
+
+1. Extraire ce ZIP.
+2. Copier les dossiers docs et public dans le dossier local du projet smart-batiment,
+   au même niveau que package.json. Fusionner les dossiers et remplacer les fichiers.
+3. Dans le terminal du projet :
+
+   git add docs/images/logo.webp docs/favicon.ico public/images/logo.webp public/favicon.ico
+   git commit -m "Remplacement du logo par le logo officiel"
+   git push
+
+Le dossier docs est déjà à jour : aucune compilation nécessaire pour cette modification.
+Les images de public sont également remplacées pour les prochaines compilations.
+Attendre la fin du déploiement GitHub Pages, puis recharger avec Ctrl + F5.
+Le favicon peut demander un nouvel onglet si le navigateur conserve l’ancienne icône.
+
+Le logo officiel apparaît dans l’en-tête et le pied de page de toutes les pages.
+La mise en page et les contenus restent inchangés.

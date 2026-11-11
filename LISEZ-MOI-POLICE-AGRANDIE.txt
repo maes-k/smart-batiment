@@ -1,0 +1,19 @@
+SMART BÂTIMENT — PETITS TEXTES AGRANDIS
+
+Les petits textes de contenu, notes, légendes, boutons et pieds de page
+passent à 14 px minimum, y compris sur téléphone. Le contraste renforcé est
+conservé. La signature graphique du logo reste indépendante.
+Les filtres peuvent passer sur plusieurs lignes. Sur téléphone, le bouton
+de contact de l’en-tête se place sous le logo pour éviter les chevauchements.
+
+MISE À JOUR GITHUB
+Copier tout le contenu du dossier Smart-Batiment dans votre projet existant,
+au même niveau que package.json. Accepter les remplacements.
+Le dossier docs est déjà construit et prêt pour GitHub Pages.
+
+Dans le terminal :
+git add .
+git commit -m "Agrandissement des petits textes sur toutes les pages"
+git push
+
+Après déploiement, actualiser avec Ctrl + F5.
